@@ -1,0 +1,21 @@
+<html ng-app="bismillah">
+  <head>
+  	<title>Coba SpringMVC RESTful</title>
+    <link href="/lib/css/bootstrap.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Hello Word</h1>
+    <a href="#/view1"><button class="btn btn-primary">View 1</button></a>
+    <a href="#/view2"><button class="btn btn-primary">View 2</button></a>
+    <hr>
+    <br>
+
+    <div class="container">
+    	<div ng-view=""></div>
+    </div>
+
+    <script type="text/javascript" src="/lib/js/angular.min.js"></script>
+    <script type="text/javascript" src="/lib/js/angular-route.min.js"></script>
+    <script type="text/javascript" src="/lib/js/app.js"></script>
+  </body>
+</html>
